@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <style>
+            
+            div#header {text-align:center; height: 100px;text-align:center;}
+            div#chi {background-image:url(resource/a.jpg); width:650px;height:550px; float:left;text-align:center;}
+            div#wan {background-image:url(resource/b.jpg); width:650px;height:550px; float:left;text-align:center;}
+            div#footer {background-color:#99bbbb; clear:both; text-align:center;height:50px}
+            #header {background-image: url(resource/11.png);}
+          
+            h1 {margin-bottom:0;}
+            h2 {margin-bottom:0; font-size:14px;}
+            ul {margin:0;}
+            li {list-style:none;}
+        </style>
+        <title>Facelet Title</title>
+    </h:head>
+<h:body>
+       
+<!--<div id="container" >-->
+    <div id="header">
+        <h1>吃喝玩乐在北京</h1>
+        <h:form>
+            账号：
+            <h:inputText id="uname"  size ="15" required="false" value="#{user.uname}" label="账号" ></h:inputText>
+            <br/>
+            密码：
+            <h:inputText id="upass" size ="15" required="false" value="#{user.upassword}" label="密码" ></h:inputText>
+            <br/>
+            <h:commandButton id="login" value="登陆" action="login" />
+
+            <h:commandButton id="register" value="注册" action="register" />
+
+        </h:form>
+    </div>
+<div id="chi">
+        cccccccccccccccccccccccccc
+<!--        <h2>Menu</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>-->
+    </div>
+<div id="wan">
+        wwwwwwwwwwwwwwwwwwwwwwwwwwww
+
+    </div>
+    <div id="footer">
+        <p>我们是一个神奇的团队</p>
+        <p>详情请联系40088820820</p>
+    </div>
+<!--</div>-->
+
+</h:body>
+</html>
+
